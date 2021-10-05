@@ -10,6 +10,7 @@
     background-color: purple;
     color: white;
     box-shadow: 0 5px 0 rgb(83, 1, 83);
+    margin-right: 2%;
 }
 
 .btn-eng:hover{
