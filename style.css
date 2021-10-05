@@ -22,6 +22,7 @@
     background-color: blue;
     color: white;
     box-shadow: 0 5px 0 rgb(0, 0, 90);
+    margin-right: 2%;
 }
 
 .btn-pro:hover{
