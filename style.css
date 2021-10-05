@@ -18,14 +18,27 @@
     box-shadow: 0 5px 0 rgb(39, 2, 39);
 }
 
+.btn-pro{
+    background-color: blue;
+    color: white;
+    box-shadow: 0 5px 0 rgb(0, 0, 90);
+}
+
+.btn-pro:hover{
+    background: rgb(0, 0, 90);
+    color: #fff;
+    box-shadow: 0 5px 0 rgb(2, 2, 32);
+}
+
 .btn:active{
     position: relative;
     top: 5px;
     box-shadow: none;
 }
 
-#englishA2{
+
+#certSize{
     border: 1px solid black;
-    height: 1080px;
+    height: 860px;
     position: absolute;
 }
