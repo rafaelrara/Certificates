@@ -32,6 +32,19 @@
     box-shadow: 0 5px 0 rgb(2, 2, 32);
 }
 
+.btn-tec{
+    background-color: green;
+    color: white;
+    box-shadow: 0 5px 0 rgb(3, 92, 3);
+    margin-right: 2%;
+}
+
+.btn-tec:hover{
+    background: rgb(3, 92, 3);
+    color: #fff;
+    box-shadow: 0 5px 0 rgb(2, 68, 2);
+}
+
 .btn:active{
     position: relative;
     top: 5px;
