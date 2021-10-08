@@ -1,9 +1,16 @@
+body{
+    margin:-20px 0 0 0;
+    padding-top: 0;
+}
+
 .btn{
-    font-size: 40px;
+    font-size: 25px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
     font-weight: 700;
+    margin-bottom: 1%;
+    width: 220px;
 }
 
 .btn-eng{
@@ -56,4 +63,14 @@
     border: 1px solid black;
     height: 860px;
     position: absolute;
+}
+
+#blue{
+    margin: 0px;
+    padding: 30px;
+    background-color: rgb(95, 95, 223);
+}
+
+#white{
+    color: white;
 }
