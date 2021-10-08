@@ -65,6 +65,11 @@ body{
     position: absolute;
 }
 
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #blue{
     margin: 0px;
     padding: 30px;
