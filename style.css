@@ -3,6 +3,10 @@ body{
     padding-top: 0;
 }
 
+#home{
+    margin-top: 20px;
+}
+
 .btn{
     font-size: 25px;
     border: none;
