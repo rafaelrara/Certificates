@@ -78,7 +78,7 @@ a{
 footer{
     display: flex;
     justify-content: space-evenly;
-    margin: 1.5% 0 2% 0;
+    margin: 1.5% 0 2% 4%;
 }
 
 #blue{
@@ -143,7 +143,7 @@ ul{
 }
 
 #divPerfil{
-    width: 50%;
+    width: 65%;
     text-align: justify;
 }
 
