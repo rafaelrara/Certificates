@@ -1,10 +1,12 @@
 body{
     margin:-20px 0 0 0;
     padding-top: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #home{
     margin-top: 20px;
+    margin-bottom: -20px;
 }
 
 a{
@@ -76,15 +78,16 @@ a{
 footer{
     display: flex;
     justify-content: space-evenly;
+    margin: 1.5% 0 2% 0;
 }
 
 #blue{
     margin: 0px;
-    padding: 30px;
+    padding: 15px 0 5px 15px;
     background-color: rgb(95, 123, 202);
 }
 
-#white{
+.white{
     color: white;
 }
 
@@ -119,4 +122,33 @@ h2{
     margin: 0px auto;
     padding: 35px;
     width: 80px;
+}
+
+li{
+    list-style-type: none;    
+}
+
+ul{
+    width: 150px;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between 
+}
+
+#imgPerfil{
+    height: 200px;
+    border-radius: 50%;
+    padding-left: 2%;
+}
+
+#divPerfil{
+    width: 50%;
+    text-align: justify;
+}
+
+#divOrder{
+    display: flex;
+    padding-bottom: 3%;
+    padding-left: 2%;
 }
