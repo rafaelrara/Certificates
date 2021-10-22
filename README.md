@@ -1,7 +1,10 @@
 # Certificates
 
-HTML dedicado a exposição de perfil profissional online
+**HTML/CSS** dedicado a exposição de perfil profissional online
 
 Com inclusão de cerificados 
 
-Sempre em desenvolvimento ;)
+Sempre em desenvolvimento 😉
+
+
+![Img Gráfico](https://publicdomainvectors.org/photos/cyberscooty-graph.png)
