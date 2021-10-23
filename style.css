@@ -27,7 +27,7 @@ a{
     background-color: purple;
     color: white;
     box-shadow: 0 5px 0 rgb(83, 1, 83);
-    margin-right: 2%;
+
 }
 
 .btn-eng:hover{
@@ -40,7 +40,7 @@ a{
     background-color: blue;
     color: white;
     box-shadow: 0 5px 0 rgb(0, 0, 90);
-    margin-right: 2%;
+
 }
 
 .btn-pro:hover{
@@ -53,7 +53,6 @@ a{
     background-color: green;
     color: white;
     box-shadow: 0 5px 0 rgb(3, 92, 3);
-    margin-right: 2%;
 }
 
 .btn-tec:hover{
