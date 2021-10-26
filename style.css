@@ -13,80 +13,27 @@ a{
     text-decoration: none;
 }
 
-.btn{
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: 700;
-    margin: 0 0 1% 1%;
-    width: 220px;
-}
-
-.btn-eng{
-    background-color: purple;
-    color: white;
-    box-shadow: 0 5px 0 rgb(83, 1, 83);
-
-}
-
-.btn-eng:hover{
-    background: rgb(94, 4, 94);
-    color: #fff;
-    box-shadow: 0 5px 0 rgb(39, 2, 39);
-}
-
-.btn-pro{
-    background-color: blue;
-    color: white;
-    box-shadow: 0 5px 0 rgb(0, 0, 90);
-
-}
-
-.btn-pro:hover{
-    background: rgb(0, 0, 90);
-    color: #fff;
-    box-shadow: 0 5px 0 rgb(2, 2, 32);
-}
-
-.btn-tec{
-    background-color: green;
-    color: white;
-    box-shadow: 0 5px 0 rgb(3, 92, 3);
-}
-
-.btn-tec:hover{
-    background: rgb(3, 92, 3);
-    color: #fff;
-    box-shadow: 0 5px 0 rgb(2, 68, 2);
-}
-
-.btn:active{
-    position: relative;
-    top: 5px;
-    box-shadow: none;
-}
-
-
 #certSize{
     border: 1px solid black;
     height: 540px;
 }
 
-footer{
+#footerAux{
     display: flex;
     justify-content: space-evenly;
-    margin: 1.5% 0 2% 4%;
+    padding: 1.5%;
+    background-image: linear-gradient(to bottom, #6CBDF0,#4F8BB0);
 }
 
 #blue{
     margin: 0px;
     padding: 15px 0 5px 15px;
-    background-color: rgb(95, 123, 202);
+    background-image: linear-gradient(to top,#325970,#4F8BB0);
 }
 
 .white{
     color: white;
+    text-shadow: 1px 1px 0 black;
 }
 
 h2{

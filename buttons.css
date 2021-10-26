@@ -1,0 +1,54 @@
+.btn{
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: 700;
+    margin: 0 0 1% 1%;
+    width: 220px;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.btn-eng{
+    background-color: #785FDE;
+    color: white;
+    box-shadow: 0 5px 0 #5e4aaa;
+
+}
+
+.btn-eng:hover{
+    background: #5e4aaa;
+    color: #fff;
+    box-shadow: 0 5px 0 #473981;
+}
+
+.btn-pro{
+    background-color: #5FDED6;
+    color: white;
+    box-shadow: 0 5px 0 #4fb8b1;
+
+}
+
+.btn-pro:hover{
+    background: #3c8d88;
+    color: #fff;
+    box-shadow: 0 5px 0 #2d6864;
+}
+
+.btn-tec{
+    background-color: #6BFF72;
+    color: white;
+    box-shadow: 0 5px 0 #5ad660;
+}
+
+.btn-tec:hover{
+    background: #4cb651;
+    color: #fff;
+    box-shadow: 0 5px 0 #419944;
+}
+
+.btn:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
