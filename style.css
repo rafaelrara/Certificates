@@ -82,18 +82,26 @@ ul{
 }
 
 #imgPerfil{
-    height: 200px;
+    height: 270px;
     border-radius: 50%;
-    padding-left: 2%;
+}
+
+#imgPerfil:hover{
+    cursor: pointer;    
 }
 
 #divPerfil{
-    width: 65%;
     text-align:justify;
+    margin-left: 2%;
+    width: 85%;
 }
 
 #divOrder{
     display: flex;
     padding-bottom: 3%;
     padding-left: 2%;
+}
+
+#icon_perfil{
+    padding: 10% 0 0 20%;
 }
