@@ -9,10 +9,6 @@ body{
     margin-bottom: -20px;
 }
 
-a{
-    text-decoration: none;
-}
-
 #certSize{
     border: 1px solid black;
     height: 520px;
@@ -27,7 +23,7 @@ a{
 
 #blue{
     margin: 0px;
-    padding: 15px 0 5px 15px;
+    padding: 15px 0 25px 15px;
     background-image: linear-gradient(to top,#325970,#4F8BB0);
 }
 
@@ -68,17 +64,17 @@ h2{
     padding: 35px;
     width: 80px;
 }
-
-li{
-    list-style-type: none;    
+nav > a{
+    text-decoration: none;
+    background-image: linear-gradient(to right,#3c8d88,#2d6864);
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+    color:white;
 }
 
-ul{
-    width: 150px;
-    padding: 0;
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between 
+nav > a:hover{
+    background-image: linear-gradient(to top,#2d6864,#3c8d88);
 }
 
 #imgPerfil{
