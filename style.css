@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@100&display=swap');
+
 body{
     margin:-20px 0 0 0;
     padding-top: 0;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 50px;
 }
 
 #home{
@@ -18,22 +26,25 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding: 1.5%;
-    background-image: linear-gradient(to bottom, #6CBDF0,#4F8BB0);
+    background-image: linear-gradient(to bottom, #030F33,#031C33);
 }
 
-#blue{
+#menu{
     margin: 0px;
-    padding: 15px 0 25px 15px;
-    background-image: linear-gradient(to top,#325970,#4F8BB0);
+    padding: 15px 0 0 15px;
+    background-image: linear-gradient(to top,#1D0333,#100333);
+    height: auto;
 }
 
 .white{
     color: white;
     text-shadow: 1px 1px 0 black;
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
 
-h2{
+h1,h2{
     margin-left: 1%;
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 .rede{
@@ -64,21 +75,31 @@ h2{
     padding: 35px;
     width: 80px;
 }
-nav > a{
+li > a{
     text-decoration: none;
     background-image: linear-gradient(to right,#3c8d88,#2d6864);
     border-radius: 5px;
     padding: 5px;
-    margin-right: 10px;
     color:white;
+    font-size: 20px;
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
 
-nav > a:hover{
+li > a:hover{
     background-image: linear-gradient(to top,#2d6864,#3c8d88);
 }
 
+a,li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-top:10px;
+}
+ul{
+    padding:0;
+}
+
 #imgPerfil{
-    height: 270px;
+    height: 200px;
     border-radius: 50%;
 }
 
