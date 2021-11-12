@@ -25,22 +25,24 @@ body{
 #sectionAux{
     margin: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #menu{
     margin: 0px;
-    padding: 15px 0 0 15px;
+    padding: 15px 15px 0 15px;
     background-image: linear-gradient(to top,black,rgb(48, 48, 48));
-    height: auto;
+    height: 100vh;
+    max-width: 250px;
+    min-width: 250px;
     border: 1px solid #858331;
 }
 
-.white{
+.title{
     color: rgb(211, 211, 211);
-    text-shadow: 1px 1px 0 black;
+    text-shadow: 1px 1px 0 #858331;
     font-family: 'Mochiy Pop P One', sans-serif;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 h1,h2{
@@ -85,6 +87,7 @@ li > a{
     color:white;
     font-size: 20px;
     font-family: 'Mochiy Pop P One', sans-serif;
+    min-width: 90px;
 }
 
 li > a:hover{
