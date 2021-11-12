@@ -26,20 +26,22 @@ body{
     display: flex;
     justify-content: space-evenly;
     padding: 1.5%;
-    background-image: linear-gradient(to bottom, #030F33,#031C33);
+    background-image: linear-gradient(to left, rgb(48, 48, 48),black);
 }
 
 #menu{
     margin: 0px;
     padding: 15px 0 0 15px;
-    background-image: linear-gradient(to top,#1D0333,#100333);
+    background-image: linear-gradient(to top,black,rgb(48, 48, 48));
     height: auto;
+    border: 1px solid #858331;
 }
 
 .white{
-    color: white;
+    color: rgb(211, 211, 211);
     text-shadow: 1px 1px 0 black;
     font-family: 'Mochiy Pop P One', sans-serif;
+    margin-bottom: 3em;
 }
 
 h1,h2{
@@ -77,7 +79,7 @@ h1,h2{
 }
 li > a{
     text-decoration: none;
-    background-image: linear-gradient(to right,#3c8d88,#2d6864);
+    background-image: linear-gradient(to right,#b4b240,#858331);
     border-radius: 5px;
     padding: 5px;
     color:white;
@@ -86,7 +88,7 @@ li > a{
 }
 
 li > a:hover{
-    background-image: linear-gradient(to top,#2d6864,#3c8d88);
+    background-image: linear-gradient(to top,#858331,#b4b240);
 }
 
 a,li{
