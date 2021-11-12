@@ -4,15 +4,15 @@
     cursor: pointer;
     border-radius: 5px;
     font-weight: 700;
-    margin: 0 0 1% 1%;
+    margin: 0 0 10% 1%;
     width: 220px;
     text-shadow: 1px 1px 1px gray;
 }
 
 .btn-eng{
-    background-color: #785FDE;
+    background-color: #33030E;
     color: white;
-    box-shadow: 0 5px 0 #5e4aaa;
+    box-shadow: 0 5px 0 #1f0208;
 
 }
 
@@ -23,9 +23,9 @@
 }
 
 .btn-pro{
-    background-color: #5FDED6;
+    background-color: #332203;
     color: white;
-    box-shadow: 0 5px 0 #4fb8b1;
+    box-shadow: 0 5px 0 #201602;
 
 }
 
@@ -36,9 +36,9 @@
 }
 
 .btn-tec{
-    background-color: #6BFF72;
+    background-color: #033320;
     color: white;
-    box-shadow: 0 5px 0 #5ad660;
+    box-shadow: 0 5px 0 #021d12
 }
 
 .btn-tec:hover{

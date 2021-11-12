@@ -23,19 +23,18 @@ body{
 }
 
 #sectionAux{
-    margin: 0;
+    margin: 18em 0 0 0;
     display: flex;
-    justify-content: space-around;
+    justify-content:center ;
 }
 
 #menu{
     margin: 0px;
     padding: 15px 15px 0 15px;
-    background-image: linear-gradient(to top,black,rgb(48, 48, 48));
+    background-image: linear-gradient(to right,black,rgb(48, 48, 48));
     height: 100vh;
     max-width: 250px;
     min-width: 250px;
-    border: 1px solid #858331;
 }
 
 .title{
@@ -43,6 +42,26 @@ body{
     text-shadow: 1px 1px 0 #858331;
     font-family: 'Mochiy Pop P One', sans-serif;
     margin-bottom: 2em;
+}
+
+.subTitle{
+    width: 30vw;
+    border-radius: 10px;
+    color: rgb(253, 255, 122);
+    font-size: Auto;
+    text-shadow: 1px 1px rgb(155, 155, 155);
+}
+
+.boxCourse{
+    margin: 1em ;
+    border-radius:10px;
+    height: 70vh;
+    width: 20vw;
+}
+
+#mainCertificates{
+    display: flex;
+    justify-content: space-between; 
 }
 
 h1,h2{
@@ -71,7 +90,7 @@ h1,h2{
 
 .rede#git{
     background-color: black;
-    border: 1px solid rgb(48, 48, 48);
+ 
 }
 
 .icone{
@@ -87,7 +106,7 @@ li > a{
     color:white;
     font-size: 20px;
     font-family: 'Mochiy Pop P One', sans-serif;
-    min-width: 90px;
+    display: flex;
 }
 
 li > a:hover{
