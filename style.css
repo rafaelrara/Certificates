@@ -22,11 +22,10 @@ body{
     height: 520px;
 }
 
-#footerAux{
+#sectionAux{
+    margin: 0;
     display: flex;
-    justify-content: space-evenly;
-    padding: 1.5%;
-    background-image: linear-gradient(to left, rgb(48, 48, 48),black);
+    justify-content: space-between;
 }
 
 #menu{
@@ -50,10 +49,10 @@ h1,h2{
 }
 
 .rede{
-    width: 150px;
-    height: 150px;
+    width: 75px;
+    height: 75px;
     float: left;
-    margin-left: 20px;
+    margin-top: 5em;
     transition: all 0.4s ease-out;
     border-radius: 50%;
 }
@@ -70,12 +69,13 @@ h1,h2{
 
 .rede#git{
     background-color: black;
+    border: 1px solid rgb(48, 48, 48);
 }
 
 .icone{
     margin: 0px auto;
-    padding: 35px;
-    width: 80px;
+    padding: 17px;
+    width: 40px;
 }
 li > a{
     text-decoration: none;
