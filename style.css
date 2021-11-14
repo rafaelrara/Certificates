@@ -65,7 +65,6 @@ body{
 
 #mainCertificates{
     display: flex;
-    justify-content: space-between; 
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
@@ -141,7 +140,10 @@ ul{
 #divPerfil{
     text-align:justify;
     margin-left: 2%;
+    padding: 1%;
     width: 85%;
+    background-color: #b4b24048;
+    border-radius: 5px;
 }
 
 #divOrder{
