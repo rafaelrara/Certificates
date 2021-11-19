@@ -11,7 +11,7 @@ body{
     border-radius: 50px;
     height:100vh;
     width:100wh;
-    background-image: url(img/lamp.jpg);
+    background-color: black;
     background-size: cover;
 }
 
@@ -35,7 +35,7 @@ body{
     margin: 0px;
     padding: 15px 15px 0 15px;
     background-image: linear-gradient(to right,black,rgb(48, 48, 48));
-    height: 100vh;
+    height: 101vh;
     max-width: 250px;
     min-width: 150px;
 }
@@ -129,8 +129,9 @@ ul{
 }
 
 #imgPerfil{
-    height: 200px;
+    height: 150px;
     border-radius: 50%;
+    margin: -3% 0 0 2%;
 }
 
 #imgPerfil:hover{
@@ -139,10 +140,10 @@ ul{
 
 #divPerfil{
     text-align:justify;
-    margin-left: 2%;
-    padding: 1%;
-    width: 85%;
-    background-color: #b4b24048;
+    margin: 5% 0 0 2%;
+    padding: 3px 1% 3px 1%;
+    max-width: 55vw;
+    border: 2px solid #b4b240;
     border-radius: 5px;
 }
 
@@ -163,8 +164,15 @@ ul{
 
 .lista_index a{
     all: unset;
-    font-size: larger;
+    font-size: large;
     font-weight: 700;
-    color: purple;
-    text-decoration: underline;
+    color: rgb(197, 102, 197);
+    padding: 3px;
+}
+
+.lista_index a:hover{
+    cursor: pointer;
+    background-color: rgb(109, 10, 109);
+    color: yellow;
+    border-radius: 5px;
 }
