@@ -155,3 +155,16 @@ ul{
 #icon_perfil{
     padding: 10% 0 0 20%;
 }
+
+.lista_index li{
+    list-style:circle;
+    list-style-position: inside;
+}
+
+.lista_index a{
+    all: unset;
+    font-size: larger;
+    font-weight: 700;
+    color: purple;
+    text-decoration: underline;
+}
