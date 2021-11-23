@@ -8,10 +8,9 @@
 
 @keyframes border_change{
     0% {border-color: var(--yellow0);}
-    20% {border-color: var(--yellow1);}
-    40% {border-color: var(--yellow2);}
-    60% {border-color: var(--yellow2);}
-    80% {border-color: var(--yellow1);}
+    25% {border-color: var(--yellow1);}
+    50% {border-color: var(--yellow2);}
+    75% {border-color: var(--yellow1);}
     100% {border-color: var(--yellow0);}
 }
 
@@ -146,7 +145,7 @@ ul{
 #imgPerfil{
     height: 150px;
     border-radius: 50%;
-    margin: -3% 0 0 2%;
+    margin: -1% 0 0 2%;
 }
 
 #imgPerfil:hover{
@@ -163,7 +162,7 @@ ul{
     background-color: black;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
     animation-name: border_change;
-    animation-duration: 5s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 
