@@ -1,14 +1,14 @@
 # Certificates
 
-**HTML/CSS** dedicado à exposição de perfil profissional online
+**HTML/CSS** totalmente responsivo dedicado à exposição de perfil profissional online
 
 ## Página Principal:
 
-![Home - Certificates](https://user-images.githubusercontent.com/66069561/138904984-0c40ac3e-4654-408a-8ffe-191b2afcdfb6.JPG)
+![image](https://user-images.githubusercontent.com/66069561/144326555-31d39938-5a9c-40a8-8098-f31006a9d4d6.png)
+##
+## Página para cada certificado:
 
-## Página de certificados:
-
-![Certificates](https://user-images.githubusercontent.com/66069561/138905190-515b3c5f-bccf-4dd8-9bbc-835c07463614.JPG)
+![image](https://user-images.githubusercontent.com/66069561/144326751-2d9c45a3-d3d4-4ae9-b87f-efb5695ead04.png)
 
 
 Sempre em desenvolvimento 😉
