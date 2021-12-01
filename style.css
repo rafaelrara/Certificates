@@ -1,24 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@100&display=swap');
 
 :root{
-    --yellow0: #858431;
-    --yellow1: #858331;
-    --yellow2: #b4b240;
-    --yellow3: #A3992F;
-    --purple0: #6d0a6d;
-    --purple1: #c768c7;
-    --purpleb: #4E2FA3;
-    --orange:  #E07E41;
-    --blue:    #0e76a8;
-    --green:   #5ED198;
+    --blue:    #091B42;
+    --blue1:   #1743A3;
+    --blue2:   #4F6EB3;
+    --blue3:   #2263F0;
+    --blue3:   #6994F0;
 }
 
 @keyframes border_change{
-    0% {border-color: var(--yellow0);}
-    25% {border-color: var(--yellow1);}
-    50% {border-color: var(--yellow2);}
-    75% {border-color: var(--yellow1);}
-    100% {border-color: var(--yellow0);}
+    0%  {border-color: var(--blue) ;}
+    25% {border-color: var(--blue1);}
+    50% {border-color: var(--blue2);}
+    50% {border-color: var(--blue3);}
+    50% {border-color: var(--blue2);}
+    75% {border-color: var(--blue1);}
+    100%{border-color: var(--blue) ;}
 }
 
 *{
@@ -28,8 +25,8 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color:var(--purple0);
-    min-width: 350px;
+    color:var(--blue4);
+    
 }
 
 header{
@@ -38,6 +35,7 @@ header{
     align-items: center;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
     min-height: 175px;
+    background-image: linear-gradient(to bottom, var(--blue3),white 24%);
 }
 
 .container{
@@ -55,7 +53,7 @@ header{
 }
 
 .container .title{
-    color: var(--yellow3);
+    color: var(--blue1);
     font-family: 'Mochiy Pop P One', sans-serif;
     font-size: 50px;
     text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
@@ -78,8 +76,8 @@ header{
     padding: 10px;
     margin-left: 5px;
     border-radius: 5px;
-    background-color: var(--purple0);
-    border: 2px solid var(--yellow0);  
+    background-color: var(--blue2);
+    border: 2px solid var(--blue);  
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
     animation-name: border_change;
     animation-duration: 1s;
@@ -95,7 +93,7 @@ main{
 }
 
 #divPerfil_main{
-    background-image: linear-gradient(to bottom, var(--purple0),white 12%);
+    background-image: linear-gradient(to bottom, var(--blue3),white 12%);
 }
 
 #divPerfil_main .title{
@@ -110,8 +108,7 @@ main{
     margin-left: 15px;
     border-radius: 5px;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
-    background-image: linear-gradient(to bottom, var(--purple0),white 24%);
-    color: black;
+    background-image: linear-gradient(to bottom, var(--blue3),white 24%);
 }
 
 .divPerfil_certificates{
@@ -128,7 +125,7 @@ main{
     padding: 8px;
     min-width: 120px;
     margin-bottom: 10px;
-    color:var(--purpleb);
+    color:white;
     font-weight: bolder;
     border: none;
 }
@@ -139,20 +136,28 @@ button:hover{
 }
 
 .button_tecnology button{
-    background-color: var(--green);
+    background-color: var(--blue3);
 }
 
 .button_tecnology button:hover{
-    background-color: var(--green);
+    background-color: var(--blue2);
 
 }
 
 .button_english button{
-    background-color:var(--orange);
+    background-color:var(--blue2);
+}
+
+.button_english button:hover{
+    background-color:var(--blue1);
 }
 
 .button_pro button{
-    background-color: var(--purple1);
+    background-color: var(--blue1);
+}
+
+.button_pro button:hover{
+    background-color: var(--blue);
 }
 
 #imgPerfil{
@@ -165,7 +170,7 @@ button:hover{
 }
 
 strong > p{
-    color: var(--yellow3);
+    color: var(--blue1);
     font-size: 20px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.979);
     font-family: 'Mochiy Pop P One', sans-serif;
@@ -181,14 +186,14 @@ strong > p{
     all: unset;
     font-size: large;
     font-weight: 700;
-    color: var(--purple1);
+    color: var(--blue2);
     padding: 3px;
 }
 
 .divPerfil_lista a:hover{
     cursor: pointer;
-    background-color: var(--purple0);
-    color: yellow;
+    background-color: var(--blue);
+    color: var(--blue3);
     border-radius: 5px;
 }
 
@@ -203,13 +208,17 @@ strong > p{
 }
 
 footer{
-    background-color: var(--purple0);
+    background-color: var(--blue);
     display: flex;
     justify-content: space-around;
 }
 
+.footer_aux{
+    display: flex;
+}
+
 footer p{
-    color: white;
+    color: var(--blue3);
     font-size: 25px;
     font-weight: bolder;
     display: flex;
@@ -231,7 +240,7 @@ footer p{
 }
 
 .rede#linkedin{
-    background-color: var(--blue);
+    background-color: #0e76a8;
 }
 
 .rede#git{
@@ -251,6 +260,8 @@ footer p{
 
 /* Responsivity: */
 @media (max-width: 640px){
+    
+    
     .container .title{
         font-size: 30px;
         margin-left: 15px;
@@ -278,5 +289,17 @@ footer p{
 
     #imgPerfil{
         height: 120px;
+    }
+}
+
+@media (max-width: 520px){
+    .container {
+        flex-direction: column;
+    }
+
+    
+
+    footer p{
+        font-size: 14px;
     }
 }
