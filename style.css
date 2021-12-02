@@ -26,7 +26,6 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     color:var(--blue4);
-    
 }
 
 header{
@@ -35,7 +34,7 @@ header{
     align-items: center;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
     min-height: 175px;
-    background-image: linear-gradient(to bottom, var(--blue3),white 24%);
+    background-color: var(--blue);
 }
 
 .container{
@@ -53,7 +52,7 @@ header{
 }
 
 .container .title{
-    color: var(--blue1);
+    color: var(--blue3);
     font-family: 'Mochiy Pop P One', sans-serif;
     font-size: 50px;
     text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
@@ -93,7 +92,7 @@ main{
 }
 
 #divPerfil_main{
-    background-image: linear-gradient(to bottom, var(--blue3),white 12%);
+    background-image: linear-gradient(to bottom, var(--blue1),white 12%);
 }
 
 #divPerfil_main .title{
@@ -108,7 +107,7 @@ main{
     margin-left: 15px;
     border-radius: 5px;
     box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
-    background-image: linear-gradient(to bottom, var(--blue3),white 24%);
+    background-image: linear-gradient(to bottom, var(--blue1),white 24%);
 }
 
 .divPerfil_certificates{
@@ -136,20 +135,20 @@ button:hover{
 }
 
 .button_tecnology button{
-    background-color: var(--blue3);
+    background-color: var(--blue1);
 }
 
 .button_tecnology button:hover{
-    background-color: var(--blue2);
+    background-color: var(--blue);
 
 }
 
 .button_english button{
-    background-color:var(--blue2);
+    background-color:var(--blue1);
 }
 
 .button_english button:hover{
-    background-color:var(--blue1);
+    background-color:var(--blue);
 }
 
 .button_pro button{
