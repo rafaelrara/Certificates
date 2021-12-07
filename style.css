@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
 
 :root{
     --blue:    #091B42;
@@ -6,6 +7,9 @@
     --blue2:   #4F6EB3;
     --blue3:   #2263F0;
     --blue3:   #6994F0;
+    --black0:  #101010;
+    --black1:  #222222; 
+    --black2:  #2C2C2C;
 }
 
 @keyframes border_change{
@@ -25,30 +29,66 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    color:var(--blue4);
-}
-
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
-    min-height: 175px;
-    background-color: var(--blue);
+    color:white;
+    background-color: var(--black0);
 }
 
 .container{
     display: flex;
-    max-width: 900px;
-    height:100px;
-    padding:20px;
     justify-content: space-around;
     flex: 1;
+    padding: 20px 20px 0px 20px;
 }
 
 .container .menu{
     align-items: center;
     flex: 1;
+}
+
+.column{
+    flex-direction: column;
+    flex: 1;
+    font-size: 12px;
+}
+
+.divPerfil{
+    text-align:left;
+    padding: 20px 15px 15px 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    border-radius: 5px;
+    background-color: var(--black1);
+}
+
+.divPerfil:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+#imgPerfil{
+    height: 150px;
+    border-radius: 20%;
+}
+
+#imgPerfil:hover{
+    cursor: pointer;    
+}
+
+.contact{
+    font-family: 'Meow Script', cursive;
+    font-size: 30px;
+    text-align: center;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.contact a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #2094EF;
 }
 
 .container .title{
@@ -59,55 +99,9 @@ header{
     flex: 1;
 }
 
-.menu ul{
-    display: flex;
-}
-
-.menu ul a{
-    color: white;
-    list-style-type: none;
-    text-decoration: none;
-    padding-top: 20px;  
-    flex:1;
-}
-
-.menu a li{
-    padding: 10px;
-    margin-left: 5px;
-    border-radius: 5px;
-    background-color: var(--blue2);
-    border: 2px solid var(--blue);  
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
-    animation-name: border_change;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    text-align: center; 
-    min-width: 77px; 
-}
-
-main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#divPerfil_main{
-    background-image: linear-gradient(to bottom, var(--blue1),white 12%);
-}
-
 #divPerfil_main .title{
     margin-top: 20px;
     font-size: 35px;
-}
-
-.divPerfil{
-    text-align:left;
-    padding: 20px 5px 5px 20px;
-    margin-bottom: 15px;
-    margin-left: 15px;
-    border-radius: 5px;
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
-    background-image: linear-gradient(to bottom, var(--blue1),white 24%);
 }
 
 .divPerfil_certificates{
@@ -159,15 +153,6 @@ button:hover{
     background-color: var(--blue);
 }
 
-#imgPerfil{
-    height: 150px;
-    border-radius: 20%;
-}
-
-#imgPerfil:hover{
-    cursor: pointer;    
-}
-
 strong > p{
     color: var(--blue1);
     font-size: 20px;
@@ -196,18 +181,38 @@ strong > p{
     border-radius: 5px;
 }
 
-.column{
-    flex-direction: column;
-    flex: 1;
-    font-size: 12px;
-}
-
 .div_flex2{
     flex: 2;
 }
 
+.menu ul{
+    display: flex;
+}
+
+.menu ul a{
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    padding-top: 20px;  
+    flex:1;
+}
+
+.menu a li{
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    background-color: var(--blue2);
+    border: 2px solid var(--blue);  
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
+    animation-name: border_change;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    text-align: center; 
+    min-width: 77px; 
+}
+
 footer{
-    background-color: var(--blue);
+    background-color: var(--black1);
     display: flex;
     justify-content: space-around;
 }
@@ -295,8 +300,6 @@ footer p{
     .container {
         flex-direction: column;
     }
-
-    
 
     footer p{
         font-size: 14px;

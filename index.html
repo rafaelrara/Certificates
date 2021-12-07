@@ -9,30 +9,58 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <!-- Cabeçalho com nome e menus guia -->
-    <header> 
-        <div class="container">
-            <div  class="title">
-                Rafael Ramos
-            </div>
-            <nav class="menu">
-                <ul>
-                    <a href="#sobre"><li>Sobre</li></a>
-                    <a href="#hard"><li>Hard Skills</li></a>
-                    <a href="#soft"><li>Soft Skills</li></a>
-                    <a href="#certificates_title"><li>Certificados</li></a>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    
-    <!-- Coonteúdo Principal -->
-    <main >
 
-        <!-- Texto de apresentação -->
-        <div class="container">
-            <div id="divPerfil_main" class="divPerfil div_flex2">
+    <div class="container">
+        
+        <div class="column">
+            <!-- Imagem de perfil com título -->
+            <aside class="divPerfil">
+                <div><img id="imgPerfil" src="img/Rafa 2021-10.jpeg" alt="Imagem de perfil"></div>
+                <div class="contact">
+                    <h3>Rafael Ramos</h3>
+
+                    <strong><a href="CV-RARA.pdf" download="CV Rafael">Download do CV</a></strong>
+
+                </div>
+            </aside>
+            
+            <!-- Texto de apresentação -->
+            <aside class="divPerfil">
+                <strong><p id="sobre">Sobre</p></strong>
+                <ul class="divPerfil_lista">
+                    <p>Atualmente em transição de carreira, cursando:</p>
+                    <li>Segundo ano de <strong>Sistemas de Informação</strong> (<a href="https://www.fiap.com.br/">FIAP</a>)
+                    <li><strong>FullStack</strong> (<a href="https://b7web.com.br/">b7web</a>)
+                    <li><strong>Diversos</strong> (<a href="https://www.cursoemvideo.com/">Curso em vídeo</a>).
+                    <p>Tenho o objetivo de ingressar na área de TI , em busca de oportunidade em desenvolvimento de software.</p>
+                </ul>
+            </aside>
+            <aside class="divPerfil">
+                <strong><p id="hard">Hard skills</p></strong>
+                <p>Anos de estudos focados em matérias de concursos públicos, como: Português, raciocínio lógico, matemática, informática, administração e outros - atualmente sou servidor da administração municipal de Santo André.</p>
+            </aside>
+            <aside class="divPerfil">
+                <strong><p id="soft">Soft skills</p></strong>
+                <p>Pensamento crítico, criatividade, organização, trabalho em equipe, apaixonado por adquirir conhecimento.</p>
+            </aside>
+        </div>
+
+        <div class="header_certificates divPerfil div_flex2">
+            <!-- Cabeçalho com nome e menus guia -->
+            <header> 
+                <div class="container">
+                    <nav class="menu">
+                        <ul>
+                            <a href="#sobre"><li>Sobre</li></a>
+                            <a href="#hard"><li>Hard Skills</li></a>
+                            <a href="#soft"><li>Soft Skills</li></a>
+                            <a href="#certificates_title"><li>Certificados</li></a>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            
+            <div id="divPerfil_main" >
                 <div class="title">
                     <p id="certificate_title">Certificados</p>
                 </div>
@@ -71,33 +99,10 @@
                     <a href="certificados/etec.html">
                         <button class="btn btn-pro" >Mecânica</button>
                     </a>
-                </section>                
+                </section>
             </div>
-
-            <div class="column">
-                <aside class="divPerfil">
-                    <!-- Imagem de perfil com título -->
-                    <img id="imgPerfil" src="img/Rafa 2021-10.jpeg" alt="Imagem de perfil">
-                    <strong><p id="sobre">Sobre</p></strong>
-                    <ul class="divPerfil_lista">
-                        <p>Atualmente em transição de carreira, cursando:</p>
-                        <li>Segundo ano de <strong>Sistemas de Informação</strong> (<a href="https://www.fiap.com.br/">FIAP</a>)
-                        <li><strong>FullStack</strong> (<a href="https://b7web.com.br/">b7web</a>)
-                        <li><strong>Diversos</strong> (<a href="https://www.cursoemvideo.com/">Curso em vídeo</a>).
-                        <p>Tenho o objetivo de ingressar na área de TI , em busca de oportunidade em desenvolvimento de software.</p>
-                    </ul>
-                </aside>
-                <aside class="divPerfil">
-                    <strong><p id="hard">Hard skills</p></strong>
-                    <p>Anos de estudos focados em matérias de concursos públicos, como: Português, raciocínio lógico, matemática, informática, administração e outros - atualmente sou servidor da administração municipal de Santo André.</p>
-                </aside>
-                <aside class="divPerfil">
-                    <strong><p id="soft">Soft skills</p></strong>
-                    <p>Pensamento crítico, criatividade, organização, trabalho em equipe, apaixonado por adquirir conhecimento.</p>
-                </aside>
-            </div>
-        </div>  
-    </main>
+        </div>
+    </div>  
 
     <footer>
         <section class="container">
