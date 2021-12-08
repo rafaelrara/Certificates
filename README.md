@@ -4,7 +4,7 @@
 
 ## Página Principal:
 
-![image](https://user-images.githubusercontent.com/66069561/144326555-31d39938-5a9c-40a8-8098-f31006a9d4d6.png)
+![image](https://user-images.githubusercontent.com/66069561/145206493-6e64acf5-4c16-44f2-9e39-a157f5e0ba99.png)
 ##
 ## Página para cada certificado:
 
