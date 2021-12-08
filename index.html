@@ -9,22 +9,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <!-- Container Principal da tela -->
     <div class="container">
-        
+  
         <div class="column">
             <!-- Imagem de perfil com título -->
             <aside class="divPerfil">
                 <div><img id="imgPerfil" src="img/Rafa 2021-10.jpeg" alt="Imagem de perfil"></div>
-                <div class="contact">
+                <div class="resume">
                     <h3>Rafael Ramos</h3>
-
                     <strong><a href="CV-RARA.pdf" download="CV Rafael">Download do CV</a></strong>
-
                 </div>
-            </aside>
-            
-            <!-- Texto de apresentação -->
+            </aside> 
+            <!-- Asides com apresentação de perfil -->
             <aside class="divPerfil">
                 <strong><p id="sobre">Sobre</p></strong>
                 <ul class="divPerfil_lista">
@@ -45,26 +42,25 @@
             </aside>
         </div>
 
-        <div class="header_certificates divPerfil div_flex2">
+        <!-- Box Maior da tela(menu e certificados) -->
+        <div class="header_certificates div_flex">
             <!-- Cabeçalho com nome e menus guia -->
-            <header> 
-                <div class="container">
-                    <nav class="menu">
-                        <ul>
-                            <a href="#sobre"><li>Sobre</li></a>
-                            <a href="#hard"><li>Hard Skills</li></a>
-                            <a href="#soft"><li>Soft Skills</li></a>
-                            <a href="#certificates_title"><li>Certificados</li></a>
-                        </ul>
-                    </nav>
-                </div>
+            <header>           
+                <nav class="menu">
+                    <ul>
+                        <a href="#sobre"><li>Sobre</li></a>
+                        <a href="#hard"><li>Hard Skills</li></a>
+                        <a href="#soft"><li>Soft Skills</li></a>
+                        <a href="#certificates_title"><li>Certificados</li></a>
+                    </ul>
+                </nav>             
             </header>
             
             <div id="divPerfil_main" >
                 <div class="title">
-                    <p id="certificate_title">Certificados</p>
+                    <p>Certificados</p>
                 </div>
-                <section class="divPerfil_certificates button_tecnology">
+                <section class="divPerfil_certificates">
                     <strong><p>Tecnologia</p></strong>
                     <a href="certificados/intro.html">
                         <button>Introdução</button>
@@ -82,7 +78,7 @@
                         <button>HTML5 - CSS3</button>
                     </a>
                 </section>
-                <section class="divPerfil_certificates button_english">
+                <section class="divPerfil_certificates">
                     <strong><p>Inglês</p></strong>
                     <a href="certificados/levelA1.html">
                         <button>Level A1</button>
@@ -91,7 +87,7 @@
                         <button>Level A2</button>
                     </a>
                 </section>
-                <section class="divPerfil_certificates button_pro">
+                <section class="divPerfil_certificates">
                     <strong><p>Profissionalizante</p></strong>
                     <a href="certificados/senac.html">
                         <button class="btn btn-pro" >Administração</button>

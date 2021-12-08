@@ -6,7 +6,8 @@
     --blue1:   #1743A3;
     --blue2:   #4F6EB3;
     --blue3:   #2263F0;
-    --blue3:   #6994F0;
+    --blue4:   #6994F0;
+    --blue5:   #2094EF;
     --black0:  #101010;
     --black1:  #222222; 
     --black2:  #2C2C2C;
@@ -36,8 +37,8 @@ body{
 .container{
     display: flex;
     justify-content: space-around;
-    flex: 1;
     padding: 20px 20px 0px 20px;
+    flex: 1;
 }
 
 .container .menu{
@@ -47,8 +48,8 @@ body{
 
 .column{
     flex-direction: column;
-    flex: 1;
     font-size: 12px;
+    flex: 1;
 }
 
 .divPerfil{
@@ -67,6 +68,14 @@ body{
     padding: 0px;
 }
 
+strong > p{
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.979);
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-bottom: 20px;
+}
+
 #imgPerfil{
     height: 150px;
     border-radius: 20%;
@@ -76,89 +85,24 @@ body{
     cursor: pointer;    
 }
 
-.contact{
+.resume{
     font-family: 'Meow Script', cursive;
     font-size: 30px;
     text-align: center;
     height: 100px;
     margin-top: 15px;
+    padding: 20px;
 }
 
-.contact a{
+.resume h3{
+    margin-bottom: 30px;
+}
+
+.resume a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     text-decoration: none;
-    color: #2094EF;
-}
-
-.container .title{
-    color: var(--blue3);
-    font-family: 'Mochiy Pop P One', sans-serif;
-    font-size: 50px;
-    text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
-    flex: 1;
-}
-
-#divPerfil_main .title{
-    margin-top: 20px;
-    font-size: 35px;
-}
-
-.divPerfil_certificates{
-    margin-bottom: 15px ;
-    margin-top: 55px;
-}
-
-.divPerfil_certificates a{
-    text-decoration: none;
-    margin-left: 10px;
-}
-
-.divPerfil_certificates button{
-    padding: 8px;
-    min-width: 120px;
-    margin-bottom: 10px;
-    color:white;
-    font-weight: bolder;
-    border: none;
-}
-
-.divPerfil_certificates 
-button:hover{
-    cursor: pointer;
-}
-
-.button_tecnology button{
-    background-color: var(--blue1);
-}
-
-.button_tecnology button:hover{
-    background-color: var(--blue);
-
-}
-
-.button_english button{
-    background-color:var(--blue1);
-}
-
-.button_english button:hover{
-    background-color:var(--blue);
-}
-
-.button_pro button{
-    background-color: var(--blue1);
-}
-
-.button_pro button:hover{
-    background-color: var(--blue);
-}
-
-strong > p{
-    color: var(--blue1);
-    font-size: 20px;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.979);
-    font-family: 'Mochiy Pop P One', sans-serif;
-    margin-bottom: 20px;
+    color: var(--blue5);
 }
 
 .divPerfil_lista li{
@@ -170,19 +114,32 @@ strong > p{
     all: unset;
     font-size: large;
     font-weight: 700;
-    color: var(--blue2);
+    color: var(--blue5);
     padding: 3px;
 }
 
 .divPerfil_lista a:hover{
     cursor: pointer;
-    background-color: var(--blue);
     color: var(--blue3);
-    border-radius: 5px;
 }
 
-.div_flex2{
-    flex: 2;
+.header_certificates{
+    padding: 0px 15px 15px 0px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.div_flex{
+    flex: 3;
+}
+
+header{
+    background-color: var(--black1);
+    border-radius: 5px;
+    padding: 30px 20px;
+    margin-bottom: 15px;
 }
 
 .menu ul{
@@ -193,22 +150,63 @@ strong > p{
     color: white;
     list-style-type: none;
     text-decoration: none;
-    padding-top: 20px;  
     flex:1;
 }
 
 .menu a li{
-    padding: 10px;
-    margin-left: 5px;
     border-radius: 5px;
-    background-color: var(--blue2);
+    background-color: var(--blue5);
     border: 2px solid var(--blue);  
-    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.384);
     animation-name: border_change;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     text-align: center; 
     min-width: 77px; 
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 2px;
+}
+
+#divPerfil_main{
+    background-color: var(--black1);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#divPerfil_main .title{
+    color: var(--blue5);
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 35px;
+}
+
+.divPerfil_certificates{
+    margin-bottom: 15px ;
+    margin-top: 35px;
+}
+
+.divPerfil_certificates a{
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.divPerfil_certificates button{
+    padding: 8px;
+    min-width: 120px;
+    margin-bottom: 10px;
+    color:white;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--blue5);
+}
+
+.divPerfil_certificates 
+button:hover{
+    cursor: pointer;
+    background-color: var(--blue3)
 }
 
 footer{
