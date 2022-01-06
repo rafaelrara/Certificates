@@ -34,6 +34,14 @@ body{
     background-color: var(--black0);
 }
 
+.contact{
+    height: 90px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 999;
+}
+
 .container{
     display: flex;
     justify-content: space-around;
