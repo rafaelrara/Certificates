@@ -34,9 +34,14 @@ body{
     background-color: var(--black0);
 }
 
-h5{
+.timer{
     color: white;
-    padding-left: 20px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.colors{
+    color: green;
 }
 
 .contact{

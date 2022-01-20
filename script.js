@@ -20,3 +20,4 @@ function zero(x){
 }
 
 let timer = setInterval(showTimer, 1000);
+console.log(aleatorio);
