@@ -34,6 +34,11 @@ body{
     background-color: var(--black0);
 }
 
+h5{
+    color: white;
+    padding-left: 20px;
+}
+
 .contact{
     height: 90px;
     position: fixed;
